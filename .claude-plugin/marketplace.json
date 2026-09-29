@@ -1,0 +1,16 @@
+{
+  "name": "postoncehq",
+  "description": "PostOnce MCP servers and social media skills for Claude Code.",
+  "owner": {
+    "name": "PostOnce",
+    "url": "https://postonce.to"
+  },
+  "plugins": [
+    {
+      "name": "linkedin-mcp",
+      "version": "0.1.0",
+      "description": "Write, publish and schedule LinkedIn posts through LinkedIn's official API.",
+      "source": "./"
+    }
+  ]
+}

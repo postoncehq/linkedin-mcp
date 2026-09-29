@@ -1,0 +1,20 @@
+{
+  "name": "linkedin-mcp",
+  "version": "0.1.0",
+  "description": "LinkedIn MCP server and writing skills: write, publish and schedule LinkedIn posts through LinkedIn's official API, via PostOnce.",
+  "author": {
+    "name": "PostOnce"
+  },
+  "homepage": "https://github.com/postoncehq/linkedin-mcp",
+  "skills": "./skills/",
+  "mcpServers": "./codex.mcp.json",
+  "interface": {
+    "displayName": "LinkedIn MCP",
+    "shortDescription": "Write, publish and schedule LinkedIn posts.",
+    "longDescription": "Write LinkedIn posts with built-in skills, then publish or schedule them on your profile or company page through LinkedIn's official API, via PostOnce.",
+    "developerName": "PostOnce",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": "Write a LinkedIn post about this and schedule it for tomorrow at 9am."
+  }
+}
