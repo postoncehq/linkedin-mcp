@@ -14,6 +14,8 @@ Claude: Drafted it with the linkedin-post-writer skill. Here's the post; the
         Scheduled on PostOnce for Tue 9:00 on "Acme" (company page).
 ```
 
+Full setup guide with examples: [postonce.to/mcp/linkedin](https://postonce.to/mcp/linkedin)
+
 ## What you can do
 
 | Ask your agent to | How it works |
