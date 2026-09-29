@@ -1,7 +1,7 @@
 {
   "name": "linkedin-mcp",
   "version": "0.1.0",
-  "description": "LinkedIn MCP server and writing skills: write, publish and schedule LinkedIn posts from Claude Code through LinkedIn's official API, via PostOnce.",
+  "description": "LinkedIn MCP server and skills: write, publish and schedule LinkedIn posts, images and video on your profile or company page through LinkedIn's official API, via PostOnce.",
   "author": {
     "name": "PostOnce",
     "url": "https://postonce.to"
@@ -9,5 +9,11 @@
   "homepage": "https://github.com/postoncehq/linkedin-mcp",
   "repository": "https://github.com/postoncehq/linkedin-mcp",
   "license": "MIT",
-  "keywords": ["linkedin", "linkedin-mcp", "mcp", "social-media", "postonce"]
+  "keywords": [
+    "linkedin",
+    "linkedin-mcp",
+    "mcp",
+    "social-media",
+    "postonce"
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "linkedin-mcp",
   "version": "0.1.0",
-  "description": "LinkedIn MCP server and writing skills: write, publish and schedule LinkedIn posts through LinkedIn's official API, via PostOnce.",
+  "description": "LinkedIn MCP server and skills: write, publish and schedule LinkedIn posts, images and video on your profile or company page through LinkedIn's official API, via PostOnce.",
   "author": {
     "name": "PostOnce"
   },
@@ -11,10 +11,13 @@
   "interface": {
     "displayName": "LinkedIn MCP",
     "shortDescription": "Write, publish and schedule LinkedIn posts.",
-    "longDescription": "Write LinkedIn posts with built-in skills, then publish or schedule them on your profile or company page through LinkedIn's official API, via PostOnce.",
+    "longDescription": "LinkedIn post writing, formatting, carousel, headline, profile and content calendar skills, plus publishing and scheduling to your LinkedIn profile or company page through PostOnce. Publishing goes through LinkedIn's official API, via PostOnce.",
     "developerName": "PostOnce",
     "category": "Productivity",
-    "capabilities": ["Read", "Write"],
-    "defaultPrompt": "Write a LinkedIn post about this and schedule it for tomorrow at 9am."
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "Turn this into a LinkedIn post and schedule it for Tuesday at 9 AM."
   }
 }

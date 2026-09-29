@@ -1,7 +1,7 @@
 {
   "name": "linkedin-mcp",
   "version": "0.1.0",
-  "description": "LinkedIn MCP server and writing skills: write, publish and schedule LinkedIn posts through LinkedIn's official API, via PostOnce.",
+  "description": "LinkedIn MCP server and skills: write, publish and schedule LinkedIn posts, images and video on your profile or company page through LinkedIn's official API, via PostOnce.",
   "author": {
     "name": "PostOnce"
   },
