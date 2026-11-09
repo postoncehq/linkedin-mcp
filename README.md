@@ -74,10 +74,10 @@ Step-by-step: [Claude Code](https://postonce.to/integrations/claude-code) · [Co
 ## FAQ
 
 **Does LinkedIn have an official MCP server?**
-No. LinkedIn offers REST APIs but no MCP server. This server uses LinkedIn's official posting API through PostOnce.
+Not for posting. As of November 2026, LinkedIn's only official connector is LinkedIn Hiring Pro, which posts job listings from Claude. With this server, PostOnce publishes regular LinkedIn posts through LinkedIn's official posting API.
 
 **Is it safe for my LinkedIn account?**
-Yes. Posts go through LinkedIn's official API with the permissions you grant when you connect. Many LinkedIn MCP servers on GitHub drive a logged-in browser session instead, which LinkedIn's User Agreement doesn't allow and which can get accounts restricted.
+Yes. Posts go through LinkedIn's official posting API with the permissions you grant when you connect. There's no scraping and no browser session, and you can revoke access any time.
 
 **Can Claude post to LinkedIn?**
 Yes, once it's connected to an MCP server that can publish, like this one. Claude writes the post, then calls `create_post`.
