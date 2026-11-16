@@ -6,6 +6,10 @@ LinkedIn MCP server for Claude, ChatGPT, Cursor and Codex. Your AI agent can wri
 
 It runs on [PostOnce](https://postonce.to?utm_source=github&utm_campaign=linkedin-mcp)'s hosted MCP server and comes with LinkedIn writing skills, so your agent knows what a good LinkedIn post looks like before it posts one.
 
+**[Start free for 7 days, no card →](https://postonce.to?utm_source=github&utm_campaign=linkedin-mcp)** · Used by 3,500+ users
+
+[![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logoColor=white&logo=claude)](https://postonce.to/integrations/claude?utm_source=github&utm_campaign=linkedin-mcp) [![ChatGPT](https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&logoColor=white)](https://postonce.to/integrations/chatgpt?utm_source=github&utm_campaign=linkedin-mcp) [![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logoColor=white&logo=claude)](https://postonce.to/integrations/claude-code?utm_source=github&utm_campaign=linkedin-mcp) [![Codex](https://img.shields.io/badge/Codex-000000?style=for-the-badge&logoColor=white)](https://postonce.to/integrations/codex?utm_source=github&utm_campaign=linkedin-mcp) [![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logoColor=white&logo=cursor)](https://postonce.to/integrations/cursor?utm_source=github&utm_campaign=linkedin-mcp) [![Gemini CLI](https://img.shields.io/badge/Gemini_CLI-8E75B2?style=for-the-badge&logoColor=white&logo=googlegemini)](https://github.com/postoncehq/postonce-gemini-extension) [![Grok](https://img.shields.io/badge/Grok-000000?style=for-the-badge&logoColor=white&logo=x)](https://postonce.to/integrations/grok?utm_source=github&utm_campaign=linkedin-mcp) [![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logoColor=white&logo=n8n)](https://postonce.to/integrations/n8n?utm_source=github&utm_campaign=linkedin-mcp) [![Make](https://img.shields.io/badge/Make-6D00CC?style=for-the-badge&logoColor=white&logo=make)](https://postonce.to/integrations/make?utm_source=github&utm_campaign=linkedin-mcp) [![Zapier](https://img.shields.io/badge/Zapier-FF4F00?style=for-the-badge&logoColor=white&logo=zapier)](https://postonce.to/integrations/zapier?utm_source=github&utm_campaign=linkedin-mcp) [![Any MCP client](https://img.shields.io/badge/Any_MCP_client-1D4ED8?style=for-the-badge&logoColor=white)](https://postonce.to/integrations/mcp?utm_source=github&utm_campaign=linkedin-mcp)
+
 ```
 You:    Turn this week's product update into a LinkedIn post for our company page
         and schedule it for Tuesday 9am.
@@ -15,6 +19,15 @@ Claude: Drafted it with the linkedin-post-writer skill. Here's the post; the
 ```
 
 Full setup guide with examples: [postonce.to/mcp/linkedin](https://postonce.to/mcp/linkedin?utm_source=github&utm_campaign=linkedin-mcp)
+
+## What hosted PostOnce handles for you
+
+| | |
+| --- | --- |
+| Approved platform apps | No developer app or platform review on your side. Connect your accounts and post. |
+| Official APIs | Every post goes through each platform's official API. No scraping, no browser automation. |
+| Retries | Temporary platform errors retry on their own, without posting twice. |
+| Status per platform | Each post shows its status and live link on every platform. |
 
 ## What you can do
 
@@ -57,7 +70,7 @@ claude plugin install linkedin-mcp@postoncehq
 
 Step-by-step: [Claude Code](https://postonce.to/integrations/claude-code?utm_source=github&utm_campaign=linkedin-mcp) · [Codex](https://postonce.to/integrations/codex?utm_source=github&utm_campaign=linkedin-mcp) · [Cursor](https://postonce.to/integrations/cursor?utm_source=github&utm_campaign=linkedin-mcp)
 
-**Any other MCP client:** point it at `https://postonce.to/mcp` (Streamable HTTP) and sign in with PostOnce when it asks. Clients without OAuth can send the header `Authorization: Bearer <your PostOnce API key>` instead (API keys are in [PostOnce preferences](https://postonce.to/dashboard/preferences) and need a paid plan).
+**Any other MCP client:** point it at `https://postonce.to/mcp` (Streamable HTTP) and sign in with PostOnce when it asks. Clients without OAuth can send the header `Authorization: Bearer <your PostOnce API key>` instead (API keys are in [PostOnce preferences](https://postonce.to/dashboard/preferences?utm_source=github&utm_campaign=linkedin-mcp) and need a paid plan).
 
 ## Skills included
 
@@ -83,7 +96,7 @@ Yes. Posts go through LinkedIn's official posting API with the permissions you g
 Yes, once it's connected to an MCP server that can publish, like this one. Claude writes the post, then calls `create_post`.
 
 **Can it post to a LinkedIn company page?**
-Yes, to pages you're an admin of. Connect the page from the [PostOnce dashboard](https://postonce.to/dashboard/accounts); connecting from your agent links your personal profile only. Once the page is connected, your agent can post to it.
+Yes, to pages you're an admin of. Connect the page from the [PostOnce dashboard](https://postonce.to/dashboard/accounts?utm_source=github&utm_campaign=linkedin-mcp); connecting from your agent links your personal profile only. Once the page is connected, your agent can post to it.
 
 **Do I need a LinkedIn developer app or API approval?**
 No. PostOnce holds the LinkedIn API access; you just connect your account.
@@ -95,10 +108,10 @@ The skills and this repo are free and MIT-licensed. Publishing runs through a Po
 
 - The posts, captions and media you ask your agent to publish are sent to PostOnce and on to the platforms you choose. Nothing is published without a request from you.
 - Media files you upload go straight to PostOnce's file storage through a short-lived signed upload link, then publish from there. Uploaded media is publicly reachable so the platforms can fetch it.
-- PostOnce stores your posts, media and connected account names so it can schedule them and show your publishing history. You can disconnect accounts and revoke access at any time in [PostOnce preferences](https://postonce.to/dashboard/preferences).
+- PostOnce stores your posts, media and connected account names so it can schedule them and show your publishing history. You can disconnect accounts and revoke access at any time in [PostOnce preferences](https://postonce.to/dashboard/preferences?utm_source=github&utm_campaign=linkedin-mcp).
 - The skills themselves run in your agent and send nothing anywhere else.
 
-Full details: [privacy policy](https://postonce.to/privacy-policy) · [terms](https://postonce.to/tos).
+Full details: [privacy policy](https://postonce.to/privacy-policy?utm_source=github&utm_campaign=linkedin-mcp) · [terms](https://postonce.to/tos?utm_source=github&utm_campaign=linkedin-mcp).
 
 ## Other platforms
 
